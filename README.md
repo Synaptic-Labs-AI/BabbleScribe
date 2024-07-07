@@ -1,0 +1,2 @@
+# BabbleScribe
+Transcription using whisperAPI
