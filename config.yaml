@@ -1,0 +1,26 @@
+# Folder paths
+input_folder: "input"
+output_folder: "output"
+transcription_folder: "transcriptions"
+
+# OpenAI Whisper settings
+whisper_model: "whisper-1"
+whisper_response_format: "text"
+
+# OpenRouter settings
+openrouter_url: "https://openrouter.ai/api/v1/chat/completions"
+openrouter_model: "openai/gpt-4o-mini"
+your_site_url: "your_site_url"
+your_app_name: "Babelscribe"
+
+# Summarization settings
+max_tokens: 150
+temperature: 0.7
+
+# Summarization prompt
+summary_prompt: |
+  Please provide a concise summary of the following transcription, highlighting the main points and key takeaways:
+
+  {transcription}
+
+  Summary:
